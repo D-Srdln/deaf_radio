@@ -51,7 +51,7 @@ video {
 
 const player = document.querySelector('.player')
 const lyrics = document.querySelector('.lyrics')
-const lines = lyrics.textContent.trim()
+const lines = lyrics.textContent.trim().split('\\n')
 
 lyrics.removeAttribute('style')
 lyrics.innerText = ''
