@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 audio {
@@ -75,7 +75,5 @@ player.addEventListener('timeupdate', () => {
 </script>
 
 """
-
-
 
 components.html(HTML)
