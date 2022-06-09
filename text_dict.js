@@ -1,6 +1,6 @@
 const player = document.querySelector('.player')
 const lyrics = document.querySelector('.test')
-const lines = lyrics.textContent.trim().split('\n')
+const lines = lyrics.textContent.trim()//.split('\n')
 
 
 lyrics.removeAttribute('style')
@@ -11,7 +11,7 @@ let syncData = []
 lines.map((line, index) => {
     const [time, text] = line.trim().split('|')
     syncData.push({'start': time.trim(), 'text': text.trim()})
-    document.getElementById('line').scrollIntoView();
+    document.getElementById('line').scrollIntoView(); // scrolling down by line?
 })
 
 player.addEventListener('timeupdate', () => {
