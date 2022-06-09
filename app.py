@@ -67,8 +67,7 @@ player.addEventListener('timeupdate', () => {
     syncData.forEach((item) => {
         if (player.currentTime >= item.start)
         {
-            let temp = lyrics.innerText + '\\n' + item.text
-            lyrics.innerText = temp
+            lyrics.innerText = + ' ' + item.text
         }
     })
 })
