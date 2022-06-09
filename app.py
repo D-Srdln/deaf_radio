@@ -68,7 +68,6 @@ player.addEventListener('timeupdate', () => {
         if (player.currentTime >= item.start)
         {
             lyrics.innerText = item.text
-            element.scrollIntoView(behavior=smooth);
         }
     })
 })
