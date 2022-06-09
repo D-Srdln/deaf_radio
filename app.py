@@ -64,6 +64,7 @@ lines.map((line, index) => {
 })
 
 player.addEventListener('timeupdate', () => {
+    lyrics.innerText = ''
     syncData.forEach((item) => {
         if (player.currentTime >= item.start)
         {
