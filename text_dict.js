@@ -1,6 +1,6 @@
 const player = document.querySelector('.player')
 const lyrics = document.querySelector('.test')
-const lines = lyrics.textContent.trim()//.split('\n')
+const lines = lyrics.textContent.trim().split('\n')
 
 
 lyrics.removeAttribute('style')
