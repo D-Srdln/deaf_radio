@@ -35,15 +35,10 @@ video {
 </style>
 
 
-<audio class="player" src="https://www.codepunker.com/resources/audio-sync-with-text/10bears.mp3" controls></audio>
+<audio class="player" src="/home/david/code/D-Srdln/deaf_radio/13917-09.06.2022-ITEMA_23053434-2022C22191S0160-21.mp3" controls></audio>
 
-<div class="lyrics" style="display: none">
-  0.125 | There were
-  0.485 | 10 in his bed
-  1.685 | and the little
-  2.245 | one said
-  2.985 | Roll over!
-  5.405 |
+<div class="lyrics" src="/home/david/code/D-Srdln/deaf_radio/result_test.txt" style="display: none">
+
 </div>
 
 
