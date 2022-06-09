@@ -61,7 +61,6 @@ let syncData = []
 lines.map((line, index) => {
     const [time, text] = line.trim().split('|')
     syncData.push({'start': time.trim(), 'text': text.trim()})
-    document.getElementById('line').scrollIntoView();
 })
 
 player.addEventListener('timeupdate', () => {
